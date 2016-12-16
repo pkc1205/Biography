@@ -1,0 +1,215 @@
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: right;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 25px 25px ;
+    text-decoration: none;
+    border-left-width: 5px;
+    border-right-width: 5px
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #f1f1f1;}
+ul.tab li a:focus, .inactive {background-color: #ccc;}
+
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 6px 1px 1px;#ddd
+    border: 1px solid #ccc;
+    border-top: none;
+}
+/* fade in the tab content */
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+      border: 1px solid #dddddd;
+    width: 200px;
+      padding-top:50px;
+       font-size: 20px;
+}
+td{
+    border: 1px solid #dddddd;
+    padding: 4px;
+    text-align: center;
+
+}
+th {
+    border: 1px solid #dddddd;
+    padding: 6px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+#Experience ul{
+    text-align:center;
+        list-style-type: none;
+        font-size: 18px
+}
+#Experience {
+    text-align:center;
+    font-size: 18px;
+}
+.tabcontent a{
+    text-decoration: none;
+      list-style-type: none;
+      font-size: 20px;
+          background-color:#78ccbe; 
+}
+
+}
+.address {
+    text-decoration: none;
+    font-size:18px;
+    font-family:sans-serif;
+    width:250px; height:100px;
+}
+
+.head1{
+    float:right;
+    overflow: auto;
+    margin-top: -440px;
+    text-align: justify-all;
+      padding-left: 650px;
+    padding-right: 350px;
+}
+
+
+body {
+    
+    background-color: 
+#78ccbe;
+}
+
+.head1 p{
+    float:right;
+ 
+    font-size: 18px;
+    font-family: sans-serif;
+  
+}
+
+#FrontEndTechnology table{
+    text-align: center;
+    width:300px;
+    padding-left: 60px;
+     border:2px solid;
+    padding:10px 10px; 
+    width:300px;
+    resize:both;
+      padding-top:50px;
+       font-size: 20px;
+    overflow:auto;
+ }
+
+#Operatingsystems table{
+    text-align: center;
+    width:300px;
+    padding-left: 60px; 
+     border:2px solid;
+    padding:10px 10px; 
+    width:300px;
+      padding-top:50px;
+    resize:both;
+    overflow:auto;
+     font-size: 20px;
+  
+ }
+#Databases table{
+    text-align: center;
+    width:auto; 
+    border:2px solid;
+    padding:10px 10px; 
+    padding-top:50px;
+    width: 300px;
+    resize:both;
+    overflow:auto;
+    font-size: 20px;
+ }
+#ServerSideScript table{
+    text-align: center;
+    width:auto; 
+     border:2px solid;
+    padding:10px 10px; 
+    width: 300px;
+    resize:both;
+    padding-top:50px;
+    overflow:auto;
+     font-size: 20px;
+ }
+
+ .hideborder td{
+     padding-top:10px;
+     padding-bottom: 10px;
+        width:250px; height:100px;
+}
+
+.round{
+ 
+    width:300px;
+    height:450px;
+    border-top-left-radius: 200px 200px;
+    border-top-right-radius: 200px 200px;
+    border-bottom-left-radius: 200px 200px;
+    border-bottom-right-radius: 200px 200px;
+}
+#Technical ul li{
+    list-style-type: none;
+}
+.heading{
+    text-align:center;
+}
+.table3  td {
+    border-color: none;
+    table-layout: auto;
+    text-align: left;
+    border:none;
+  
+}
+
+.table3  table {
+    text-align: left;
+    width: 100%;
+}
+.symbols {
+
+}
